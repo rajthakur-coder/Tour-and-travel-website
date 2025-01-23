@@ -1,0 +1,67 @@
+.login-pop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTdaUf5jFQC9s1DT5tOjSMb0VNvSsNEnM3w&s") no-repeat;
+    background-size: cover;
+
+
+}
+
+.login-pop-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: linear-gradient(135deg, rgba(255, 255, 205, 0.1), rgba(255, 255, 255, 0));
+
+}
+
+.login-pop-container h5 {
+    font-weight: 600;
+    color: white;
+}
+
+.login-pop-container input {
+    padding: 8px;
+    border-radius: 8px;
+   
+}
+
+.login-pop-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -10px;
+}
+
+
+.login-pop-condition p {
+    color: white;
+}
+
+.login-pop-condition input {
+    margin-top: 5px;
+    padding: 30px;
+}
+
+.login-pop-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: -25px;
+}
